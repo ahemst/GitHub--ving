@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tre bilder</title>
+
+    <style>
+        #bilder {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+        }
+
+        #kanin {
+            grid-column: 1 / 2;
+        }
+
+        #ekorn {
+            grid-column: 2 / 3;
+        }
+
+        #firfisle {
+            grid-column: 1 / 2;
+            grid-row: 2 / 3;
+        }
+    </style>
+</head>
+<body>
+    <div id="bilder">
+        <img src="bilder/kanin.jpg" alt="kanin" id="kanin">
+        <img src="bilder/ekorn.jpg" alt="ekorn" id="ekorn">
+        <img src="bilder/firfisle.jpg" alt="firfisle" id="firfisle">
+    </div>
+</body>
+</html>
